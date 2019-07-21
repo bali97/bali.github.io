@@ -1,0 +1,18 @@
+*{
+    
+}
+[title]{
+    color: black;
+}
+[title="About me"]{
+    color: blue;
+}
+[title~="Container"]{
+    background: yellowgreen;
+}
+[title*= "ectio"]{
+    background: blueviolet;
+}
+[title$="skills"]{
+    color: aqua;
+}

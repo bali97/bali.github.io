@@ -1,0 +1,22 @@
+*{
+    
+}
+#name:hover{
+ background: green;
+}
+#name:focus{
+    border: 3px solid red;
+}
+
+.customer:first-child{
+    background: lightblue;
+}
+.customer:last-child{
+    background-color: blue;
+}
+.customer:nth-child(3){
+ color: yellow;
+}
+.customer:nth-last-child(3n -1){
+    color: red;
+}

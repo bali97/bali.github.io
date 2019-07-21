@@ -1,0 +1,11 @@
+*{
+    
+}
+#pierwszy::before{
+    content: "przed pierwszym paragrafem";
+    color: silver;
+}
+#drugi::after{
+    content: "za tekstem";
+    color: yellow;
+}

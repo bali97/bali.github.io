@@ -1,0 +1,13 @@
+*{
+  background: green; 
+}
+#pierwszy::before{
+    content: "Przed pierwszym paragrafem";
+    color: grey;
+}
+
+
+#drugi::after{
+    content: "drugi paragraf";
+    color: yellow;
+}
